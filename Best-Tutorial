@@ -1,1 +1,9 @@
 https://hgen471.hakyimlab.org/post/2022/02/22/partition-heritability/
+### 东亚人群 LDSC 参考数据库分析教程： https://cloufield.github.io/GWASTutorial/08_LDSC/#cross-trait-ld-score-regression
+
+关于第二步LDscore的数据结果：
+输出文件：
+C11.1.l2.M # 1000G_EUR_Phase3_plink中包含在Peak内的 SNP注释 数量
+C11.1.l2.M_5_50 # 1000G_EUR_Phase3_plink中包含在Peak内的 SNP 中次要等位基因频率（MAF）>0.05 的数量； MAF 大于 0.05 的SNP，可以减少由于稀有变异导致的假阳性结果，提高结果的可靠性
+C11.1.l2.ldscore.gz # 1000G_EUR_Phase3_plink和hapmap3_snps都包含在Peak内的 SNP 的LD分数
+C11.1.log #日志
